@@ -34,4 +34,8 @@ Thời gian: 2026-07-16 10:50:11 +07
 
 ## Kết quả
 
-Source sẵn sàng để tạo commit đầu tiên và push lên nhánh `main`.
+- Commit source đầu tiên: `e7da44196db689f56dacedb8b11f6cc50d0b06dc`.
+- Push thành công lên `origin/main`; nhánh local tạm đã theo dõi remote.
+- GitHub cảnh báo `backend/database/geoip/GeoLite2-City.mmdb` có kích thước
+  60,22 MB, vượt mức khuyến nghị 50 MB nhưng không vượt giới hạn và không chặn
+  push. Nên cân nhắc Git LFS hoặc tải GeoIP khi deploy trong task riêng.
